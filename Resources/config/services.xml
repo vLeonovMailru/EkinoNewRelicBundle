@@ -39,7 +39,7 @@
             <argument type="service" id="logger" on-invalid="null" />
         </service>
 
-        <service id="ekino.new_relic" class="Ekino\Bundle\NewRelicBundle\NewRelic\NewRelic" >
+        <service id="ekino.new_relic" class="Ekino\Bundle\NewRelicBundle\NewRelic\NewRelic" public="true">
             <argument />
             <argument />
             <argument />
